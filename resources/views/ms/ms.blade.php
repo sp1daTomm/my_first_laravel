@@ -8,6 +8,7 @@
     {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> --}}
     <link rel="stylesheet" href="{{ asset('https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="./css/microsoft-third 2 copy.css">
+    @vite('resources/css/app.css')
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <nav>
             <div id="nav-container">
                 <div id="nav-logo">
-                <a 
+                <a
                     <img src="{{ asset('img/nav/logo.png') }}" alt="">
                 </a>
                 </div>
@@ -208,7 +209,7 @@
                 </div>
             </div>
         </nav>
-
+        <div class="text-[72px] bg-[red]">123</div>
         <header>
             <section>
                 <!-- Swiper -->
